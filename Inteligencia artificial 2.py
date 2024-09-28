@@ -93,6 +93,6 @@ tablaDistancias = generarMatrizDistancias(nodos, distanciaMax)
 numIteraciones = 1000
 distanciaPromedio = nodos * distanciaMax / 2
 (mejorRecorrido, mejorLongitud) = algoritmoHormigas(tablaDistancias, numIteraciones, distanciaPromedio)
-
-print("Mejor recorrido: ", mejorRecorrido)
-print("Longitud del mejor recorrido: ", mejorLongitud)
+print("Resultados obtenidos por el algoritmo para la actividad 2")
+print("############ Mejor recorrido: ", mejorRecorrido, "###################")
+print("############ Longitud del mejor recorrido: ", mejorLongitud, "###########")
